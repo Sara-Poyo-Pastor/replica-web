@@ -4,32 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sync</title>
-    <link rel="stylesheet" type="text/css" href=".\styles\style1.css">
+    <title>Replica_web_P2</title>
+    <link rel="stylesheet" href=".\styles\style1.css">
     <style>
         @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext");
       </style>
 </head>
 <body>
-    <header>
-        <div class="up">
-            <div class="logo">
-                <img src="\images\logo.svg" alt="logo">
-            </div>
-            <div class="navbar">
-                <a href="#DESCRIPTION" class= "active">DESCRIPTION</a>
-                <a href="#FEATURES">FEATURES</a>
-                <a href="#SCREENS">SCREENS</a>
-                <a href="#EXTRA">EXTRA</a><img src="/images/down-arrow.png" alt="down arrow">
-                <a href="#DOWNLOAD">DOWNLOAD</a>
-            </div>   
-            
-        </div>
-        
+    <header class="header">
+            <a class="logo-navbar" href="index.html"><img src="\images\logo.svg" alt="logo" id="logo"></a>
+            <input type="checkbox" id="check">  
+            <label for="check" class="menu-view">
+            &#8801
+            </label>
+            <nav class="menu">
+                <a href="#">DESCRIPTION</a>
+                <a href="#">FEATURES</a>
+                <a href="#">SCREENS</a>
+                <a href="#">EXTRA <img src="/images/down-arrow.png" alt="down arrow"></a>
+                <a href="#" id="download">DOWNLOAD</a>
+                <label for="check" class="menu-hide">
+                    &#215
+                </label>
+            </nav>
     </header>
-    <h1>Mobile App Landing Page</h1>
-    <p>Start focusing on your goals and get more things done with Sync mobile 
-        application. It´s the first app to harness the power of social 
-        connections to help you stay focused and get organized</p>
+    <main>
+        <section class="landing">
+                <div class="container-text">
+                    <div class="principal">
+                        <div class="text">
+                            <h1>Mobile App Landing Page</h1>
+                            <h2>Start focusing on your goals and get more things done with Sync mobile 
+                                application. It´s the first app to harness the power of social 
+                                connections to help you stay focused and get organized</h2>
+                            <div class="download_button">
+                                <button class="download_apple" type="button">
+                                    <img src="./images/icono_apple.svg" alt="icono_apple" id="icono_apple">DOWNLOAD
+                                </button>
+                                <button class="download_play" type="button">
+                                    <img src="./images/icono_flecha.svg" alt="icono_play" id="icono_play">DOWNLOAD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="iphone">
+            <div class="container-iphone">
+                <img src="/images/header-iphone.png" alt="iphone" id="iphone_landing">
+            </div>
+        </section>
+        <section class="icons">
+            <div class="icons-landing">
+                <div class="cell">
+                    <div class="icon"><img src="/images/people_circle.png" alt="" id="icon"></div>
+                    <div class="description"><h5>Identify Goals</h5></div>
+                </div>
+                <div class="cell">
+                    <div class="icon"><img src="/images/less than_circle.png" alt="" id="icon"></div>
+                    <div class="description"><h5>Situation Analysis</h5></div>
+                </div>
+                <div class="cell">
+                    <div class="icon"><img src="/images/ajustes_circle.png" alt="" id="icon"></div>
+                    <div class="description"><h5>Tasks Settings</h5></div>
+                </div>
+                <div class="cell">
+                    <div class="icon"><img src="/images/comentarios.png" alt="" id="icon"></div>
+                    <div class="description"><h5>Social Interaction</h5></div>
+                </div>
+                <div class="cell">
+                    <div class="icon"><img src="/images/cohete_circle.png" alt="" id="icon"></div>
+                    <div class="description"><h5>Get Things Done</h5></div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <!--<section id="iphone1">
+        <div class="telephone">
+            <img src="./images/header-iphone.png" alt="iphone1">
+        </div>
+    </section>-->
+    
 </body>
 </html>
+
