@@ -10,4 +10,4 @@
 - Los tamaños de los elementos DEBEN ser iguales a los elementos del mockup,
 
 ## El link a la pagina 
-[proyecto2]
+[proyecto2](https://sara-poyo-pastor.github.io/replica-web/)
