@@ -347,7 +347,6 @@ ul{
     padding-right: 15px;
 }
 .list2{
-    padding-left: ;
     list-style-image: url(/images/check.png);
     font-size: 16px;
     font-weight: 400;
@@ -565,6 +564,7 @@ h4{
 }
 .icons-footer{
     width: 100%;
+    padding-top: 50px;
     padding-left: 30px;
     padding-right: 15px;
     margin-left: auto;
@@ -586,13 +586,53 @@ h4{
     background-color: transparent;
 }
 .footer_titles{
+    text-align: left;
     font-size: 18px;
     color: #999;
+    line-height: 1.5;
 }
 .footer_text{
-    font-size: 15px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5;
     font-weight: 400;
     color: #999;
+}
+.list4{
+    list-style-image: url(/images/Vector.png);
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    padding-left: 15px;
+    line-height: 2;
+    padding-bottom: 15px;
+}
+.list5{
+    list-style-image: url(/images/Mail.png);
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    padding-left: 15px;
+    line-height: 2;
+    padding-bottom: 15px;
+}
+.list6{
+    list-style-image: url(/images/Phone.png);
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    padding-left: 15px;
+    line-height: 2;
+    padding-bottom: 15px;
 }
 .cell5{
     display: inline-block;
