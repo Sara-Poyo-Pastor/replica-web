@@ -123,6 +123,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 10px;
+    vertical-align: middle;
 }
 .download_apple,
 .download_play{
@@ -141,6 +142,7 @@ body{
 #icono_play{
     height: 15px;
     width: 15;
+    vertical-align: middle;
 }
 /*iphone*/
 .iphone{
@@ -169,41 +171,442 @@ body{
 
 /*icons*/
 .icons{
-  background-color: #f7fafd;
-  ;
+    background-color: #f7fafd;
 }
 .icons-landing{
-  padding-top: 15px;
-  padding-bottom: 30px;
-  background-color: #f7fafd;
-  text-align: center;
-  box-sizing: border-box;
-}
-.icons-landing{
-  width: 100%;
-  padding-left: 30px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  text-align: center;
-  box-sizing: border-box;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    box-sizing: border-box;
 }
 .cell{
-  display: inline-block;
-  padding-bottom: 50px;
-  margin-left: 15px;
-  margin-right: 15px;
-  width: 170px;
-  max-width: 100%;
-  vertical-align: top;
-  background-color: transparent;
+    display: inline-block;
+    padding-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 170px;
+    max-width: 100%;
+    vertical-align: top;
+    background-color: transparent;
 }
 #icon{
-  width: 70%;
+    width: 70%;
 }
+/*description*/
+.descriptions{
+    background-color: #f7fafd;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+.description-container{
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f7fafd;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#description1{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.left{
+    display: inline-block;
+    width: 45%;
+    padding-left: 15px; 
+    box-sizing: border-box;  
+}
+.right{
+    display: inline-block;
+    width: 45%;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+h3{
+    margin-bottom: 25px;
+    font-size: 40px;
+    color: #333;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    line-height: 1.5;
+}
+ul{
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    padding-left: 15px;
+    line-height: 2;
+    padding-bottom: 15px;
+}
+.lightbox{
+    justify-content: center;
+    vertical-align: middle;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid #ff556e;
+    border-radius: 20px;
+    padding: 5px;
+    background: #ff556e;
+    color: #f3fafb;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 12px;
+}
+.descriptions2{
+    width: 100%;
+    background-color: #e8eff6;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+.description2-container{
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #e8eff6;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.button_container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    gap: 3%;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+#icono_schedule{
+    width: 25%;
+    vertical-align: middle;
+}
+#icono_tracking{
+    width: 25%;
+    vertical-align: middle;
+}
+#icono_organize{
+    width: 25%;
+    vertical-align: middle;
+}
+.button_description1{
+    background-color: #9a67e7;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    display: block;
+    align-items: center;
+    text-decoration:none;
+    text-align: center;
+    height: 40px;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.button_description{
+    background-color: #f7fafd;
+    color: #212529;
+    font-size: 16px;
+    font-weight: 400; 
+    border: none;
+    display: block;
+    align-items: center;
+    text-decoration:none;
+    text-align: center;
+    height: 40px;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.list2{
+    padding-left: ;
+    list-style-image: url(/images/check.png);
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    padding-left: 15px;
+    line-height: 2;
+    padding-bottom: 15px;
+}
+.button_container2{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    gap: 2%;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.lightbox1{
+    justify-content: center;
+    vertical-align: middle;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    background: transparent;
+    color: black;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 12px;   
+}
+/*features*/
+.user_testimonials{
+    width: 100%;
+    background-color: #f7fafd;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.user_text{
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.users{
+    text-align: center;
+}
+.user_testimonial{
+    position: relative;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    word-wrap: break-word;
+}
+.cell1{
+    display: inline-block;
+    padding-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 30%;
+    max-width: 100%;
+    vertical-align: top;
+    background-color: transparent;
+}
+.stars_text{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 15px;
+}
+.primester{
+    position: relative;
+    width: 75%;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #fff;
+}
+#icon1{
+    width: 45%;
+}
+.user_testimonial1{
+    position: relative;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    word-wrap: break-word;
+}
+.numbers{
+    background-color: #e8eff6 ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.numbers_list{
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    box-sizing: border-box;
+}
+#icon2{
+    width: 35%;
+}
+#icon3{
+    width: 52%;
+}
+h4{
+    font-weight: 700;
+    font-size: 70px;
+}
+/*last iphone*/
+.iphone_landing{
+    width: 100%;
+}
+#iphone_landing{
+    width: 75%;
+    padding-top: 90px;
+}
+.last_iphone{
+    width: 100%;
+    background: #f3fafb;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.principal1{
+    position: relative;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.container-text h2{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: 200;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #333;
+}
+.download_button1{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    vertical-align: middle;
+    padding-bottom: 100px;
+}
+.download_apple1,
+.download_play1{
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid #ff556e;
+    border-radius: 23px;
+    padding: 5px;
+    background: #ff556e;
+    color: #f3fafb;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    text-align: center;
+    align-items: center;
+}
+/*footer*/
+.footer{
+    width: 100%;
+    border-top: 1px #c8d4d6;
+}
+.footer_container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.icons-footer{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    box-sizing: border-box;
+}
+.cell{
+    display: inline-block;
+    padding-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 170px;
+    max-width: 100%;
+    vertical-align: top;
+    background-color: transparent;
+}
+.footer_titles{
+    font-size: 18px;
+    color: #999;
+}
+.footer_text{
+    font-size: 15px;
+    font-weight: 400;
+    color: #999;
+}
+.cell5{
+    display: inline-block;
+    padding-bottom: 50px;
+    width: 170px;
+    max-width: 100%;
+    vertical-align: top;
+    background-color: transparent;
+    flex-direction: row;
+}
+#icon5{
+    width: 23%;
+}
+
 
 /* Responsive*/
 @media(max-width: 320px){
